@@ -37,7 +37,6 @@ MAPS_API_KEY=your_google_maps_api_key
 ---
 
 ## 📸 Screenshots / Demo Video
-*(Add screenshots or demo video here)*
 ![img.png](ss1.png)
 ![record.gif](record.gif)
 
