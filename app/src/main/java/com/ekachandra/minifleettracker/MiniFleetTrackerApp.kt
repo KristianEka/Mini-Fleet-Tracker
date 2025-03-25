@@ -7,11 +7,11 @@ import org.koin.android.ext.koin.androidLogger
 import org.koin.core.context.startKoin
 
 
-class TrackerApp : Application() {
+class MiniFleetTrackerApp : Application() {
     override fun onCreate() {
         super.onCreate()
         startKoin {
-            androidContext(this@TrackerApp)
+            androidContext(this@MiniFleetTrackerApp)
             androidLogger()
             modules(appModule)
         }
