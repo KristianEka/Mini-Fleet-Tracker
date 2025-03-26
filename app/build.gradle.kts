@@ -70,8 +70,6 @@ dependencies {
 
     implementation(libs.bundles.retrofit)
 
-    testImplementation(libs.junit)
-
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
     androidTestImplementation(platform(libs.androidx.compose.bom))
@@ -80,4 +78,7 @@ dependencies {
     implementation(libs.androidx.room.runtime)
     implementation(libs.androidx.room.ktx)
     ksp(libs.androidx.room.compiler)
+
+    testImplementation(libs.bundles.test)
+    testImplementation(kotlin("test"))
 }
